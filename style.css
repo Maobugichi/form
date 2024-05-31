@@ -1,0 +1,432 @@
+body {
+  background-color: #ccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  height: 550px;
+  background-color: white;
+  width: 1100px;
+  gap: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#heading h1 {
+  margin-bottom: 0;
+}
+
+.image img {
+  height: 550px;
+  width: 500px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.image {
+  height: 100%;
+ 
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+
+#icons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 550px;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+
+.cellphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 90px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 1s ease-out;
+   box-sizing: border-box;
+   width: 150px;
+}
+
+
+
+.cellphone:hover {
+  background-color: purple;
+  color: white;
+  transition: 1s ease-out;
+  
+ }
+
+ .cellphone svg:hover {
+  fill: #ffffff;
+  transition: 1s ease-out;
+ }
+
+
+.mail {
+  width: 200px;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.web {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 2px;
+  color: purple;
+  border: 1.5px solid purple;
+}
+
+.web:hover
+
+{
+ 
+  background-color: purple;
+  color: white;
+ transition: 1s ease-in;
+ cursor: pointer;
+ 
+}
+
+
+.web p {
+  width: 100%;
+  margin-top: 5px;
+  font-weight: 300px;
+}
+
+
+
+#container-2 {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+}
+
+.content-2 {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ 
+.input {
+
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+.input input {
+  border: none;
+  position: relative;
+  bottom: 5px;
+  width: 80%;
+  height: 25px;
+ background-color: whitesmoke;
+  
+}
+
+.user-circle {
+  width: 20px;
+  margin-top: 5px;
+}
+
+#email {
+  margin-top: 10px;
+}
+.email {
+  background-color: white;
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+.email input {
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.envelope-simple {
+  width: 20px;
+  margin-top: 5px;
+}
+
+.number {
+  background-color: white;
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+.number input {
+  border: none;
+  position: relative;
+  bottom: 6px;
+  width: 80%;
+  height: 24px;
+  background-color: whitesmoke;
+}
+
+.device-mobile {
+  width: 20px;
+  margin-top: 5px;
+}
+
+#number-div {
+  margin-top: 10px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+}
+
+.message input {
+  height: 220px;
+  border-radius: 10px;
+  border: none;
+  background-color: whitesmoke;
+}
+
+@media(max-width:804px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    width: 400px; 
+    padding: 15px;
+    padding-bottom: 35px;
+  }
+
+  #heading {
+    display: flex;
+    width: 400px;
+  }
+
+  #heading p {
+   width: 350px; 
+   text-align: center;
+  }
+
+  #heading h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 45px;
+  }
+
+  .image img {
+    height: 100% ;
+    width: 100%;
+    border-radius: 10px;
+   
+  }
+  
+  .image {
+   display: flex;
+   justify-content: center;
+   height: 250px;
+   
+  } 
+
+  #icons {
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+
+  
+  .cellphone {
+     width: 150px;
+     box-sizing: border-box;
+  }
+
+  .mail {
+    width: 150px;
+  }
+
+  .map p{
+    width: 115px;
+  }
+  
+  .mail-para {
+    width: 100px;
+    height: 50px;
+    word-wrap:break-word ;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+
+  
+ span {
+  color: plum;
+ }
+
+  .btn {
+    justify-content: space-around;
+   
+    width: 400px;
+  }
+
+  .web {
+    width: 60px;
+    height: 40px;
+    
+  }
+
+  #container-2 {
+    width: 400px;
+    margin-top: 10px;
+  }
+
+  .content-2 {
+    width: 200px;
+   
+  }
+
+  .message {
+    height: 200px;
+  }
+ 
+  .left {
+    width: 400px;
+  }
+  
+}
+
+@media ((min-width:805px) and (max-width: 1066px)) {
+  #content {
+    
+    height: 600px;
+    width: 780px; 
+    padding-right: 10px;
+  }
+
+  #heading {
+    display: flex;
+    width: 450px;
+  }
+
+  #heading p {
+   width: 350px; 
+   text-align: center;
+  }
+
+  
+
+  .image img {
+    height: 100% ;
+    width: 250px;
+    
+   
+  }
+  
+  .image {
+   display: flex;
+   justify-content: center;
+    width: 250px;
+   
+  } 
+
+  #icons {
+    display: flex;
+    width: 450px;
+    padding: 10px;
+  }
+
+  
+  .cellphone {
+     width: 150px;
+     box-sizing: border-box;
+     
+  }
+
+  .mail {
+    width: 150px;
+  }
+  
+
+  .mail-para {
+    width: 100px;
+    height: 50px;
+    word-wrap:break-word ;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+
+  
+ span {
+  color: plum;
+ }
+
+  .btn {
+    justify-content: space-around;
+   
+    width: 450px;
+  }
+
+  .web {
+    width: 60px;
+    height: 40px;
+    
+  }
+
+  #container-2 {
+    width: 400px;
+    margin-top: 10px;
+    gap: 30px;
+  }
+
+  .content-2 {
+    width: 200px;
+   
+  }
+
+  .message {
+    height: 200px;
+    width: 200px;
+  }
+
+}
